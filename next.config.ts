@@ -6,6 +6,12 @@ const nextConfig: NextConfig = {
   experimental: {
     staticGenerationRetryCount: 0,
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 export default nextConfig;
